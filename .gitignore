@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+extract/air/
+extract/province/
+bangkok_test.parquet
+Chiang Mai_test.parquet
+Khon Kaen_test.parquet
