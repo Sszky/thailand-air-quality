@@ -129,14 +129,14 @@ CREATE SCHEMA IF NOT EXISTS workspace.haze;
 CREATE VOLUME IF NOT EXISTS workspace.haze.raw;
 ```
 3. **Transform** – Run `databricks/01_bronze.sql`, `02_silver.sql` and `03_gold.sql` in order, or create a Job with three tasks.
-4. **Report** – Open `powerbi/thailand_air_q.pbix`, update the Databricks connection (SQL Warehouse server hostname and HTTP path) and refresh.
+4. **Report** – Open `powerbi/thailand_air_quality.pbix`, update the Databricks connection (SQL Warehouse server hostname and HTTP path) and refresh.
 ## Project structure
  
 ```
 thailand-air-quality/
 ├── extract/fetch_air_quality.py
 ├── databricks/00_setup.sql, 01_bronze.sql, 02_silver.sql, 03_gold.sql
-├── powerbi/thailand_air_q.pbix
+├── powerbi/thailand_air_quality.pbix
 ├── images/
 ├── docs/data_quality.md
 ├── requirements.txt
