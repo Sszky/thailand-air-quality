@@ -152,6 +152,5 @@ thailand-air-quality/
  
 - Air quality data: [Open-Meteo Air Quality API](https://open-meteo.com/en/docs/air-quality-api) (CC BY 4.0). Contains modified Copernicus Atmosphere Monitoring Service information.
 ## Author
- 
 Sszky
-khanittha.k@kkumail.com
+2026
